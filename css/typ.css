@@ -1,0 +1,23 @@
+.banner-area{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: 100%;
+}
+.banner-area h2{
+  margin: 0;
+  padding: 0;
+  font-size: 5em;
+  line-height: 0;
+}
+.banner-area h2 span{
+  color: #BD5D38;
+}
+
+@media (max-width: 800px){
+  .banner-area h2{
+    font-size: 3em;
+  }
+}
